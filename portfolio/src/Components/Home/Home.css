@@ -1,0 +1,29 @@
+.Home_Main {
+    background: linear-gradient(rgba(159, 245, 163, 0.7), rgba(0, 0, 0, 0));
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.Logo_Container {
+    outline: 1px solid #999999;
+    text-align: center;
+    width:350px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -175px;
+}
+
+.Job_Title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #cecece;
+    padding-top: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
