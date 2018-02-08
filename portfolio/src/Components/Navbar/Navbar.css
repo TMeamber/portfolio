@@ -23,7 +23,7 @@ a {
 .Hamburger {
   width: 35px;
   height: 1px;
-  background-color: #999999;
+  background-color: black;
   margin: 8px 0;
 }
 
@@ -33,7 +33,7 @@ a {
 }
 
 .menu-item {
-  color: #515151 !important;
+  color:white !important;
   font-family: "Lato", sans-serif !important;
   text-transform: uppercase;
   text-align: left;

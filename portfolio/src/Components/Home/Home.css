@@ -1,5 +1,5 @@
 .Home_Main {
-    background: linear-gradient(rgba(159, 245, 163, 0.7), rgba(0, 0, 0, 0));
+    background: lightblue;
     height: 100vh;
     min-width: 100%;
     min-height: 100%;
@@ -7,7 +7,7 @@
 }
 
 .Logo_Container {
-    outline: 1px solid #999999;
+    outline: 1px solid #0a0a0a;
     text-align: center;
     width:350px;
     height:200px;
@@ -22,7 +22,7 @@
     font-weight: 200;
     font-size: 1em;
     letter-spacing: 2px;
-    color: #cecece;
+    color: #0e0d0d;
     padding-top: 15px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
