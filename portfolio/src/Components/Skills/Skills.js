@@ -11,7 +11,7 @@ import Postgre from '../../Assets/postgre.png';
 
 export default function Skills() {
     return (
-      <div className="Skill_Main" id="skill">
+      <div className="Skill_Main" id="skills">
           <div className="Skill_Header">
               <h1>Skills</h1>
               <hr/>

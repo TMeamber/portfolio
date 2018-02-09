@@ -1,0 +1,7 @@
+.Projects_Main {
+    background: linear-gradient(lightblue, lightgray);
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}

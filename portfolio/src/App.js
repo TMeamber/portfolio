@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
+
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
       <Navbar/>
       <Home/>
       <About/>
+      <Projects/>
       <Skills/>
       </div>
     );
