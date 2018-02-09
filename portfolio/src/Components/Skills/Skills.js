@@ -11,14 +11,14 @@ import Postgre from '../../Assets/postgre.png';
 
 export default function Skills() {
     return (
-      <div className="Skills_Main" id="skills">
-          <div className="Skills_Header">
+      <div className="Skill_Main" id="skill">
+          <div className="Skill_Header">
               <h1>Skills</h1>
               <hr/>
           </div>
-          <div className="Skills_Container">
+          <div className="Skill_Container">
               <div className="Front">
-                  <div className="Technologies">
+                  <div className="Tech">
                   <p>HTML5</p>
                   <p>JavaScript(ES6)</p>
                   <p>ReactJS</p>
@@ -26,14 +26,13 @@ export default function Skills() {
                   </div>
               </div>
               <div className="UI_UX">
-                  <div className="Technologies">
+                  <div className="Tech">
                   <p>CSS3</p>
                   <p>Material UI</p>
-                  <p>BootStrap</p>
                   </div>
               </div>
               <div className="Back">
-                  <div className="Technologies">
+                  <div className="Tech">
                   <p>Node.js</p>
                   <p>Express</p>
                   <p>PostgreSQL</p>
