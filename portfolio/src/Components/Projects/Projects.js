@@ -1,6 +1,9 @@
-import React from "react";
-import "./Projects.css";
-
+import React from 'react';
+import './Projects.css';
+import Carousel from 'nuka-carousel';
+import homeFC from '../../Assets/homeFC.png';
+import jordans from '../../Assets/jordans.png';
+import stripe from '../../Assets/stripe.png';
 
 export default function Projects() {
     return (
@@ -8,6 +11,11 @@ export default function Projects() {
         <hr className="Portfolio_HR" />
         <div className="Portfolio_Container">
           <div className="Portfolio_Img">
+          <Carousel>
+          <img src={homeFC} alt="" className="Hc_Image" />
+          <img src={jordans} alt="" className="Hc_Image" />
+          <img src={stripe} alt="" className="Hc_Image" />
+          </Carousel>
           </div>
           <div className="Portfolio_About">
             <div className="Portfolio_About_Container">
@@ -19,7 +27,7 @@ export default function Projects() {
                 <p>
                   <strong className="strong">Technologies Used:</strong> Built
                   with HTML/CSS, JavaScript, React, Redux, NodeJS, Express,
-                  Massive, PostgreSQL, and Auth0
+                  Massive, PostgreSQL, Stripe, and Auth0
                 </p>
               </div>
               <div className="Portfolio_Buttons">
@@ -36,7 +44,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                 >
                   <div className="Portfolio_Button">
-                    Github 
+                    Github Repository
                   </div>
                 </a>
               </div>
@@ -77,7 +85,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                 >
                   <div className="Portfolio_Button">
-                    Github 
+                    Github Repository
                   </div>
                 </a>
               </div>

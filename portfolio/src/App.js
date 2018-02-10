@@ -3,8 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
+import Skills from './Components/Skills/Skills';
+
 
 
 class App extends Component {

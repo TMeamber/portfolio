@@ -1,15 +1,13 @@
 .About_Main {
-    background: linear-gradient(lightgray, lightblue);
     height: 100vh;
     min-width: 100%;
     min-height: 100%;
-    background-size: cover;
 }
 
 .About_Header {
     font-weight: 400;
     font-size: 2em;
-    margin: auto;
+    margin-left: 350px;
     padding-top: 16%;
     padding-bottom: 2%;
     color: #293a3f;
@@ -20,7 +18,8 @@
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.5;
-    margin: auto;
+    margin-left: 25px;
+    margin-right: 25px; 
     color: black;
 }
 

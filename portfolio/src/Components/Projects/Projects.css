@@ -1,8 +1,81 @@
-
 .Projects_Main {
-    background: linear-gradient(lightblue, lightgray);
-    height: 100vh;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: cover;
+    height: 100%;
+}
+.Portfolio_Container {
+    display: flex;
+    height: 75vh;
+}
+
+.Portfolio_Img {
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    perspective: 1000px;
+    
+}
+
+.Portfolio_Img img {
+    max-width: 500px;
+    padding-left: 120px;
+}
+
+
+.Portfolio_About {
+    width: 50vw;
+    margin: auto;
+}
+
+.Portfolio_About h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #293a3f;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+.Portfolio_Explanation {
+    margin: auto 0;
+    font-size: 1em;
+    font-weight: 300;
+    color: #2A2A2A;
+    max-width: 600px;
+}
+
+.Portfolio_About p {
+    margin: 30px 0 30px 0;
+    line-height: 1.5;
+    font-weight: 200;
+    color: black;
+}
+
+.strong {
+    font-weight: 400;
+    color: #293a3f;
+}
+
+.Portfolio_HR {
+    border: 0;
+    height: 0;
+    width: 1300px;
+    border-bottom: 1px solid lightgray;
+}
+
+.Portfolio_Buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin-top: 38px;
+}
+
+.Portfolio_Button {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 10px;
+    background: lightgray;
+    color: black;
+}
+
+.Portfolio_Buttons :hover{
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
 }

@@ -1,10 +1,7 @@
 
-.Skill_Main {
-    background: linear-gradient(lightgray, lightblue);
-    height: 100vh;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: cover;
+.Skills_Main {
+    min-height: 60vh;
+    margin: 5%;
 }
 
 hr {
