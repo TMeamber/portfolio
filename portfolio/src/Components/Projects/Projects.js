@@ -4,6 +4,11 @@ import Carousel from 'nuka-carousel';
 import homeFC from '../../Assets/homeFC.png';
 import jordans from '../../Assets/jordans.png';
 import stripe from '../../Assets/stripe.png';
+import steps from '../../Assets/steps.png';
+import NFLanding from '../../Assets/NFLanding.png';
+import profile from '../../Assets/profile.png';
+
+
 
 export default function Projects() {
     return (
@@ -12,9 +17,9 @@ export default function Projects() {
         <div className="Portfolio_Container">
           <div className="Portfolio_Img">
           <Carousel>
-          <img src={homeFC} alt="" className="Hc_Image" />
-          <img src={jordans} alt="" className="Hc_Image" />
-          <img src={stripe} alt="" className="Hc_Image" />
+          <img src={homeFC} alt="" className="fc_Image" />
+          <img src={jordans} alt="" className="fc_Image" />
+          <img src={stripe} alt="" className="fc_Image" />
           </Carousel>
           </div>
           <div className="Portfolio_About">
@@ -54,7 +59,11 @@ export default function Projects() {
         <hr className="Portfolio_HR" />
         <div className="Portfolio_Container">
           <div className="Portfolio_Img">
-            {/* <img src={} alt="" className="" /> */}
+          <Carousel>
+            <img src={NFLanding} alt="" className="NF_Image" />
+            <img src={steps} alt="" className="NF_Image" />
+            <img src={profile} alt="" className="NF_Image" />
+            </Carousel>
           </div>
           <div className="Portfolio_About">
             <div className="Portfolio_About_Container">
